@@ -8,14 +8,14 @@ console.log(time)
 //click event
 //grab the value of the textarea
 //localstorage to save
-$(".saveBtn").on("click", function(){
-    var textArea = $(this).attr("data-value");
-    localStorage.setItem("input", textArea);
+$(".saveBtn").on("click", function(event){
+    var value = $(this).siblings('.timeBlock').attr('id');
+    var time = $(this).siblings('.time').text().trim();
+    localStorage.setItem(time, value);
 })
 
 //localstorage to retrieve it to the screen
 //display the text on the desired area
-let timeBlock = 
 
 $(".timeBlock").each(function (index, timeBlock) {
     //console.log(index)
