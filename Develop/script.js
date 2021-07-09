@@ -3,12 +3,19 @@ var today = moment ();
 $("#currentDay").text(today.format("MMM Do, YYYY"));
 console.log(time)
 
+
+
 //click event
 //grab the value of the textarea
 //localstorage to save
-$(".saveBtn").on("click", function(event){
-    localStorage.setItem();
+$(".saveBtn").on("click", function(){
+    var textArea = $(this).attr("data-value");
+    localStorage.setItem("input", textArea);
 })
+
+//localstorage to retrieve it to the screen
+//display the text on the desired area
+let timeBlock = 
 
 $(".timeBlock").each(function (index, timeBlock) {
     //console.log(index)
@@ -28,7 +35,3 @@ $(".timeBlock").each(function (index, timeBlock) {
 
 })
 
-
-
-//localstorage to retrieve it to the screen
-//display the text on the desired area
