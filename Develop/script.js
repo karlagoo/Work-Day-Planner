@@ -33,12 +33,12 @@ $(".timeBlock").each(function (index, timeBlock) {
 
 //localstorage to retrieve it to the screen
 //display the text on the desired area
-$("#9").val(localStorage.getItem('9AM'))
-$("#10").val(localStorage.getItem('10AM'))
-$("#11").val(localStorage.getItem('11AM'))
-$("#12").val(localStorage.getItem('12PM'))
-$("#13").val(localStorage.getItem('1PM'))
-$("#14").val(localStorage.getItem('2PM'))
-$("#15").val(localStorage.getItem('3PM'))
-$("#16").val(localStorage.getItem('4PM'))
-$("#17").val(localStorage.getItem('5PM'))
+$("#9").val(localStorage.getItem('9:00 AM'))
+$("#10").val(localStorage.getItem('10:00 AM'))
+$("#11").val(localStorage.getItem('11 :00AM'))
+$("#12").val(localStorage.getItem('12:00 PM'))
+$("#13").val(localStorage.getItem('1:00 PM'))
+$("#14").val(localStorage.getItem('2:00 PM'))
+$("#15").val(localStorage.getItem('3:00 PM'))
+$("#16").val(localStorage.getItem('4:00 PM'))
+$("#17").val(localStorage.getItem('5:00 PM'))
