@@ -26,6 +26,6 @@ Lastly,  used localstorage . get item to retrieve this data from local storage a
 This assignment was not as challenging for me, I am more comfortable with Jquery than I am with vaniall JavaScript so this, although it wasn't a piece of cake, it was more doable!
 
 **Here is the link of my site!**
-## https://karlagoo.github.io/Work-Day-Planner/index
+## https://karlagoo.github.io/Work-Day-Planner/
 
 ![Work Day Schedul (1)](https://user-images.githubusercontent.com/84356242/125388495-32e4f580-e365-11eb-8828-00e20847c6cd.png)
