@@ -27,3 +27,5 @@ This assignment was not as challenging for me, I am more comfortable with Jquery
 
 **Here is the link of my site!**
 ##
+
+![Work Day Schedul (1)](https://user-images.githubusercontent.com/84356242/125388495-32e4f580-e365-11eb-8828-00e20847c6cd.png)
